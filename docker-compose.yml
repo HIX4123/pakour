@@ -14,11 +14,11 @@ services:
       MAX_MEMORY: 12G
 
       #Server
-      WORLD: 
+      WORLD: ./UnderGround Parkour.zip
       TYPE: PURPUR
       PURPUR_BUILD: LATEST
       EULA: "TRUE"
-      VERSION: LATEST
+      VERSION: 1.20.1
       MOTD: "Pakour Server"
       DIFFICULTY: PEACEFUL
       MAX_PLAYERS: 15

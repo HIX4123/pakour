@@ -11,37 +11,12 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1699627469925
+  lastteleport: 0
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1699627475608
-  login: 1699626052135
+  logout: 0
+  login: 1699947898810
 money: '0'
 last-account-name: SeworL
-logoutlocation:
-  world: a6fc7cdc-b807-49a0-b456-a22f9619ae9c
-  world-name: world
-  x: 66.5
-  y: 68.0
-  z: 18.5
-  yaw: 70.3204574584961
-  pitch: 27.749448776245117
-lastlocation:
-  world: 995aa041-8ed7-47f9-988a-6b108086b836
-  world-name: world_nether
-  x: 58.344087585182834
-  y: 44.0
-  z: 93.18471702356653
-  yaw: 72.2750244140625
-  pitch: 20.6995849609375
-homes:
-  home:
-    world: a6fc7cdc-b807-49a0-b456-a22f9619ae9c
-    world-name: world
-    x: 66.68269297441877
-    y: 68.0
-    z: 18.832637274496793
-    yaw: 77.6705322265625
-    pitch: 34.199459075927734
