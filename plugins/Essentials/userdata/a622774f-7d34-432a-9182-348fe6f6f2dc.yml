@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1699947898810
+  logout: 1699950224575
+  login: 1699950203082
 money: '0'
 last-account-name: SeworL
+logoutlocation:
+  world: 83f5cda4-6f40-49f8-b0a7-431d69ec0c74
+  world-name: world
+  x: 21.737428511556242
+  y: 71.0
+  z: -120.45146177826557
+  yaw: -24.6014404296875
+  pitch: 6.300004959106445

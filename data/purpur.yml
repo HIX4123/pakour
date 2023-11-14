@@ -34,15 +34,10 @@ settings:
       stonecutter: <player> has sawed themself in half
   tps-catchup: true
   server-mod-name: Purpur
-  allow-water-placement-in-the-end: true
-  entity:
-    enderman:
-      short-height: false
   clamp-attributes: true
   fix-projectile-looting-transfer: false
   limit-armor: true
   player-deaths-always-show-item: false
-  disable-give-dropping: false
   broadcasts:
     advancement:
       only-broadcast-to-affected-player: false
@@ -95,6 +90,7 @@ settings:
       minutes: '%02d minutes, and '
       second: '%02d second'
       seconds: '%02d seconds'
+  disable-give-dropping: false
   blocks:
     barrel:
       rows: 3
@@ -135,6 +131,10 @@ settings:
       replace-incompatible-enchants: false
     allow-unsafe-enchant-command: false
     clamp-levels: true
+  entity:
+    enderman:
+      short-height: false
+  allow-water-placement-in-the-end: true
   logger:
     suppress-init-legacy-material-errors: false
     suppress-ignored-advancement-warnings: false
@@ -150,6 +150,14 @@ settings:
   fix-network-serialized-items-in-creative: false
   blast-resistance-overrides: {}
   block-fall-multipliers:
+    minecraft:brown_bed:
+      distance: 0.5
+    minecraft:light_gray_bed:
+      distance: 0.5
+    minecraft:magenta_bed:
+      distance: 0.5
+    minecraft:purple_bed:
+      distance: 0.5
     minecraft:light_blue_bed:
       distance: 0.5
     minecraft:pink_bed:
@@ -175,14 +183,6 @@ settings:
     minecraft:yellow_bed:
       distance: 0.5
     minecraft:lime_bed:
-      distance: 0.5
-    minecraft:brown_bed:
-      distance: 0.5
-    minecraft:light_gray_bed:
-      distance: 0.5
-    minecraft:magenta_bed:
-      distance: 0.5
-    minecraft:purple_bed:
       distance: 0.5
   use-alternate-keepalive: false
 config-version: 33
@@ -213,9 +213,9 @@ world-settings:
         explosion-effect: BLOCK
       big_dripleaf:
         tilt-delay:
+          UNSTABLE: 10
           FULL: 100
           PARTIAL: 10
-          UNSTABLE: 10
       cactus:
         breaks-from-solid-neighbors: true
         affected-by-bonemeal: false
@@ -339,200 +339,200 @@ world-settings:
     tools:
       axe:
         strippables:
-          minecraft:warped_hyphae:
-            drops: {}
-            into: minecraft:stripped_warped_hyphae
-          minecraft:spruce_wood:
-            drops: {}
-            into: minecraft:stripped_spruce_wood
-          minecraft:birch_log:
-            drops: {}
-            into: minecraft:stripped_birch_log
-          minecraft:warped_stem:
-            drops: {}
-            into: minecraft:stripped_warped_stem
-          minecraft:cherry_wood:
-            drops: {}
-            into: minecraft:stripped_cherry_wood
-          minecraft:mangrove_log:
-            drops: {}
-            into: minecraft:stripped_mangrove_log
-          minecraft:birch_wood:
-            drops: {}
-            into: minecraft:stripped_birch_wood
-          minecraft:dark_oak_log:
-            drops: {}
-            into: minecraft:stripped_dark_oak_log
-          minecraft:oak_wood:
-            drops: {}
-            into: minecraft:stripped_oak_wood
-          minecraft:oak_log:
-            drops: {}
-            into: minecraft:stripped_oak_log
-          minecraft:mangrove_wood:
-            drops: {}
-            into: minecraft:stripped_mangrove_wood
-          minecraft:crimson_hyphae:
-            drops: {}
-            into: minecraft:stripped_crimson_hyphae
-          minecraft:bamboo_block:
-            drops: {}
-            into: minecraft:stripped_bamboo_block
-          minecraft:jungle_wood:
-            drops: {}
-            into: minecraft:stripped_jungle_wood
-          minecraft:jungle_log:
-            drops: {}
-            into: minecraft:stripped_jungle_log
-          minecraft:crimson_stem:
-            drops: {}
-            into: minecraft:stripped_crimson_stem
-          minecraft:spruce_log:
-            drops: {}
-            into: minecraft:stripped_spruce_log
-          minecraft:acacia_log:
-            drops: {}
-            into: minecraft:stripped_acacia_log
           minecraft:dark_oak_wood:
-            drops: {}
             into: minecraft:stripped_dark_oak_wood
+            drops: {}
           minecraft:acacia_wood:
-            drops: {}
             into: minecraft:stripped_acacia_wood
+            drops: {}
           minecraft:cherry_log:
-            drops: {}
             into: minecraft:stripped_cherry_log
+            drops: {}
+          minecraft:warped_hyphae:
+            into: minecraft:stripped_warped_hyphae
+            drops: {}
+          minecraft:spruce_wood:
+            into: minecraft:stripped_spruce_wood
+            drops: {}
+          minecraft:birch_log:
+            into: minecraft:stripped_birch_log
+            drops: {}
+          minecraft:warped_stem:
+            into: minecraft:stripped_warped_stem
+            drops: {}
+          minecraft:cherry_wood:
+            into: minecraft:stripped_cherry_wood
+            drops: {}
+          minecraft:mangrove_log:
+            into: minecraft:stripped_mangrove_log
+            drops: {}
+          minecraft:birch_wood:
+            into: minecraft:stripped_birch_wood
+            drops: {}
+          minecraft:dark_oak_log:
+            into: minecraft:stripped_dark_oak_log
+            drops: {}
+          minecraft:oak_wood:
+            into: minecraft:stripped_oak_wood
+            drops: {}
+          minecraft:oak_log:
+            into: minecraft:stripped_oak_log
+            drops: {}
+          minecraft:mangrove_wood:
+            into: minecraft:stripped_mangrove_wood
+            drops: {}
+          minecraft:crimson_hyphae:
+            into: minecraft:stripped_crimson_hyphae
+            drops: {}
+          minecraft:bamboo_block:
+            into: minecraft:stripped_bamboo_block
+            drops: {}
+          minecraft:jungle_wood:
+            into: minecraft:stripped_jungle_wood
+            drops: {}
+          minecraft:jungle_log:
+            into: minecraft:stripped_jungle_log
+            drops: {}
+          minecraft:crimson_stem:
+            into: minecraft:stripped_crimson_stem
+            drops: {}
+          minecraft:spruce_log:
+            into: minecraft:stripped_spruce_log
+            drops: {}
+          minecraft:acacia_log:
+            into: minecraft:stripped_acacia_log
+            drops: {}
         waxables:
-          minecraft:waxed_oxidized_cut_copper:
-            drops: {}
-            into: minecraft:oxidized_cut_copper
-          minecraft:waxed_weathered_cut_copper:
-            drops: {}
-            into: minecraft:weathered_cut_copper
-          minecraft:waxed_exposed_cut_copper_stairs:
-            drops: {}
-            into: minecraft:exposed_cut_copper_stairs
-          minecraft:waxed_oxidized_cut_copper_slab:
-            drops: {}
-            into: minecraft:oxidized_cut_copper_slab
-          minecraft:waxed_weathered_cut_copper_slab:
-            drops: {}
-            into: minecraft:weathered_cut_copper_slab
-          minecraft:waxed_exposed_copper:
-            drops: {}
-            into: minecraft:exposed_copper
-          minecraft:waxed_cut_copper_stairs:
-            drops: {}
-            into: minecraft:cut_copper_stairs
-          minecraft:waxed_cut_copper:
-            drops: {}
-            into: minecraft:cut_copper
-          minecraft:waxed_exposed_cut_copper:
-            drops: {}
-            into: minecraft:exposed_cut_copper
-          minecraft:waxed_oxidized_cut_copper_stairs:
-            drops: {}
-            into: minecraft:oxidized_cut_copper_stairs
-          minecraft:waxed_weathered_cut_copper_stairs:
-            drops: {}
-            into: minecraft:weathered_cut_copper_stairs
           minecraft:waxed_exposed_cut_copper_slab:
-            drops: {}
             into: minecraft:exposed_cut_copper_slab
+            drops: {}
           minecraft:waxed_cut_copper_slab:
-            drops: {}
             into: minecraft:cut_copper_slab
+            drops: {}
           minecraft:waxed_copper_block:
-            drops: {}
             into: minecraft:copper_block
+            drops: {}
           minecraft:waxed_oxidized_copper:
-            drops: {}
             into: minecraft:oxidized_copper
+            drops: {}
           minecraft:waxed_weathered_copper:
-            drops: {}
             into: minecraft:weathered_copper
-        weatherables:
-          minecraft:exposed_cut_copper_stairs:
             drops: {}
-            into: minecraft:cut_copper_stairs
-          minecraft:oxidized_copper:
+          minecraft:waxed_oxidized_cut_copper:
+            into: minecraft:oxidized_cut_copper
             drops: {}
-            into: minecraft:weathered_copper
-          minecraft:oxidized_cut_copper_stairs:
-            drops: {}
-            into: minecraft:weathered_cut_copper_stairs
-          minecraft:exposed_cut_copper_slab:
-            drops: {}
-            into: minecraft:cut_copper_slab
-          minecraft:weathered_cut_copper:
-            drops: {}
-            into: minecraft:exposed_cut_copper
-          minecraft:oxidized_cut_copper_slab:
-            drops: {}
-            into: minecraft:weathered_cut_copper_slab
-          minecraft:weathered_cut_copper_slab:
-            drops: {}
-            into: minecraft:exposed_cut_copper_slab
-          minecraft:weathered_cut_copper_stairs:
-            drops: {}
-            into: minecraft:exposed_cut_copper_stairs
-          minecraft:exposed_copper:
-            drops: {}
-            into: minecraft:copper_block
-          minecraft:oxidized_cut_copper:
-            drops: {}
+          minecraft:waxed_weathered_cut_copper:
             into: minecraft:weathered_cut_copper
-          minecraft:exposed_cut_copper:
             drops: {}
-            into: minecraft:cut_copper
-          minecraft:weathered_copper:
+          minecraft:waxed_exposed_cut_copper_stairs:
+            into: minecraft:exposed_cut_copper_stairs
             drops: {}
+          minecraft:waxed_oxidized_cut_copper_slab:
+            into: minecraft:oxidized_cut_copper_slab
+            drops: {}
+          minecraft:waxed_weathered_cut_copper_slab:
+            into: minecraft:weathered_cut_copper_slab
+            drops: {}
+          minecraft:waxed_exposed_copper:
             into: minecraft:exposed_copper
+            drops: {}
+          minecraft:waxed_cut_copper_stairs:
+            into: minecraft:cut_copper_stairs
+            drops: {}
+          minecraft:waxed_cut_copper:
+            into: minecraft:cut_copper
+            drops: {}
+          minecraft:waxed_exposed_cut_copper:
+            into: minecraft:exposed_cut_copper
+            drops: {}
+          minecraft:waxed_oxidized_cut_copper_stairs:
+            into: minecraft:oxidized_cut_copper_stairs
+            drops: {}
+          minecraft:waxed_weathered_cut_copper_stairs:
+            into: minecraft:weathered_cut_copper_stairs
+            drops: {}
+        weatherables:
+          minecraft:weathered_cut_copper_stairs:
+            into: minecraft:exposed_cut_copper_stairs
+            drops: {}
+          minecraft:exposed_copper:
+            into: minecraft:copper_block
+            drops: {}
+          minecraft:oxidized_cut_copper:
+            into: minecraft:weathered_cut_copper
+            drops: {}
+          minecraft:exposed_cut_copper:
+            into: minecraft:cut_copper
+            drops: {}
+          minecraft:weathered_copper:
+            into: minecraft:exposed_copper
+            drops: {}
+          minecraft:exposed_cut_copper_stairs:
+            into: minecraft:cut_copper_stairs
+            drops: {}
+          minecraft:oxidized_copper:
+            into: minecraft:weathered_copper
+            drops: {}
+          minecraft:oxidized_cut_copper_stairs:
+            into: minecraft:weathered_cut_copper_stairs
+            drops: {}
+          minecraft:exposed_cut_copper_slab:
+            into: minecraft:cut_copper_slab
+            drops: {}
+          minecraft:weathered_cut_copper:
+            into: minecraft:exposed_cut_copper
+            drops: {}
+          minecraft:oxidized_cut_copper_slab:
+            into: minecraft:weathered_cut_copper_slab
+            drops: {}
+          minecraft:weathered_cut_copper_slab:
+            into: minecraft:exposed_cut_copper_slab
+            drops: {}
       hoe:
         tillables:
+          minecraft:grass_block:
+            drops: {}
+            into: minecraft:farmland
+            condition: air_above
+          minecraft:dirt:
+            drops: {}
+            into: minecraft:farmland
+            condition: air_above
           minecraft:rooted_dirt:
-            into: minecraft:dirt
-            condition: always
             drops:
               minecraft:hanging_roots: 1.0
+            into: minecraft:dirt
+            condition: always
           minecraft:dirt_path:
+            drops: {}
             into: minecraft:farmland
             condition: air_above
-            drops: {}
           minecraft:coarse_dirt:
+            drops: {}
             into: minecraft:dirt
             condition: air_above
-            drops: {}
-          minecraft:grass_block:
-            into: minecraft:farmland
-            condition: air_above
-            drops: {}
-          minecraft:dirt:
-            into: minecraft:farmland
-            condition: air_above
-            drops: {}
         replant-crops: false
         replant-nether-warts: false
       shovel:
         flattenables:
-          minecraft:mycelium:
-            drops: {}
-            into: minecraft:dirt_path
-          minecraft:grass_block:
-            drops: {}
-            into: minecraft:dirt_path
-          minecraft:dirt:
-            drops: {}
-            into: minecraft:dirt_path
-          minecraft:podzol:
-            drops: {}
-            into: minecraft:dirt_path
           minecraft:coarse_dirt:
-            drops: {}
             into: minecraft:dirt_path
+            drops: {}
           minecraft:rooted_dirt:
-            drops: {}
             into: minecraft:dirt_path
+            drops: {}
+          minecraft:mycelium:
+            into: minecraft:dirt_path
+            drops: {}
+          minecraft:grass_block:
+            into: minecraft:dirt_path
+            drops: {}
+          minecraft:dirt:
+            into: minecraft:dirt_path
+            drops: {}
+          minecraft:podzol:
+            into: minecraft:dirt_path
+            drops: {}
     ridable-settings:
       babies-are-ridable: true
       untamed-tamables-are-ridable: true
@@ -1437,57 +1437,6 @@ world-settings:
       entity:
         shared-random: true
     gameplay-mechanics:
-      daylight-cycle-ticks:
-        daytime: 12000
-        nighttime: 12000
-      drowning:
-        air-ticks: 300
-        ticks-per-damage: 20
-        damage-from-drowning: 2.0
-      elytra:
-        damage-per-second: 1
-        damage-multiplied-by-speed: 0.0
-        ignore-unbreaking: false
-        damage-per-boost:
-          firework: 0
-          trident: 0
-        kinetic-damage: true
-      clamp-explosion-radius: true
-      infinity-bow:
-        works-without-arrows: false
-        normal-arrows: true
-        spectral-arrows: false
-        tipped-arrows: false
-      item:
-        immune:
-          cactus: []
-          explosion: []
-          fire: []
-          lightning: []
-        shears:
-          damage-if-sprinting: false
-          ignore-in-water: false
-          ignore-in-lava: false
-          sprinting-damage: 1.0
-          defuse-tnt-chance: 0.0
-        ender-pearl:
-          damage: 5.0
-          cooldown: 20
-          creative-cooldown: 20
-          endermite-spawn-chance: 0.05000000074505806
-        glow_berries:
-          eat-glow-duration: 0
-        shulker_box:
-          drop-contents-when-destroyed: true
-        compass:
-          holding-shows-bossbar: false
-        snowball:
-          extinguish:
-            fire: false
-            candles: false
-            campfires: false
-        end-crystal:
-          place-anywhere: false
       mob-effects:
         health-regen-amount: 1.0
         minimal-health-poison-amount: 1.0
@@ -1502,44 +1451,6 @@ world-settings:
         wandering-traders: default
         village-sieges: default
         ignore-creative-players: false
-      armorstand:
-        step-height: 0.0
-        set-name-visible-when-placing-with-custom-name: true
-        fix-nametags: false
-        can-movement-tick: true
-        can-move-in-water: true
-        can-move-in-water-over-fence: true
-        place-with-arms-visible: false
-      arrow:
-        movement-resets-despawn-counter: true
-      use-better-mending: false
-      mending-multiplier: 1.0
-      always-tame-in-creative: false
-      boat:
-        eject-players-on-land: false
-        do-fall-damage: false
-      disable-drops-on-cramming-death: false
-      entities-can-use-portals: true
-      entities-pick-up-loot-bypass-mob-griefing: false
-      fireballs-bypass-mob-griefing: false
-      impose-teleport-restrictions-on-gateways: false
-      milk-cures-bad-omen: true
-      milk-clears-beneficial-effects: true
-      note-block-ignore-above: false
-      persistent-tileentity-display-names-and-lore: false
-      persistent-droppable-entity-display-names: true
-      projectiles-bypass-mob-griefing: false
-      tick-fluids: true
-      entity-blindness-multiplier: 1.0
-      trident-loyalty-void-return-height: 0.0
-      void-damage-height: -64.0
-      void-damage-dealt: 4.0
-      raid-cooldown-seconds: 0
-      animal-breeding-cooldown-seconds: 0
-      mobs-ignore-rails: false
-      rain-stops-after-sleep: true
-      thunder-stops-after-sleep: true
-      mob-last-hurt-by-player-time: 100
       player:
         netherite-fire-resistance:
           duration: 0
@@ -1597,6 +1508,95 @@ world-settings:
         - minecraft:golden_pickaxe
         - minecraft:diamond_pickaxe
         - minecraft:netherite_pickaxe
+      item:
+        end-crystal:
+          place-anywhere: false
+        immune:
+          cactus: []
+          explosion: []
+          fire: []
+          lightning: []
+        shears:
+          damage-if-sprinting: false
+          ignore-in-water: false
+          ignore-in-lava: false
+          sprinting-damage: 1.0
+          defuse-tnt-chance: 0.0
+        ender-pearl:
+          damage: 5.0
+          cooldown: 20
+          creative-cooldown: 20
+          endermite-spawn-chance: 0.05000000074505806
+        glow_berries:
+          eat-glow-duration: 0
+        shulker_box:
+          drop-contents-when-destroyed: true
+        compass:
+          holding-shows-bossbar: false
+        snowball:
+          extinguish:
+            fire: false
+            candles: false
+            campfires: false
+      armorstand:
+        step-height: 0.0
+        set-name-visible-when-placing-with-custom-name: true
+        fix-nametags: false
+        can-movement-tick: true
+        can-move-in-water: true
+        can-move-in-water-over-fence: true
+        place-with-arms-visible: false
+      arrow:
+        movement-resets-despawn-counter: true
+      use-better-mending: false
+      mending-multiplier: 1.0
+      always-tame-in-creative: false
+      boat:
+        eject-players-on-land: false
+        do-fall-damage: false
+      disable-drops-on-cramming-death: false
+      entities-can-use-portals: true
+      entities-pick-up-loot-bypass-mob-griefing: false
+      fireballs-bypass-mob-griefing: false
+      impose-teleport-restrictions-on-gateways: false
+      milk-cures-bad-omen: true
+      milk-clears-beneficial-effects: true
+      note-block-ignore-above: false
+      persistent-tileentity-display-names-and-lore: false
+      persistent-droppable-entity-display-names: true
+      projectiles-bypass-mob-griefing: false
+      tick-fluids: true
+      entity-blindness-multiplier: 1.0
+      trident-loyalty-void-return-height: 0.0
+      void-damage-height: -64.0
+      void-damage-dealt: 4.0
+      raid-cooldown-seconds: 0
+      animal-breeding-cooldown-seconds: 0
+      mobs-ignore-rails: false
+      rain-stops-after-sleep: true
+      thunder-stops-after-sleep: true
+      mob-last-hurt-by-player-time: 100
+      daylight-cycle-ticks:
+        daytime: 12000
+        nighttime: 12000
+      drowning:
+        air-ticks: 300
+        ticks-per-damage: 20
+        damage-from-drowning: 2.0
+      elytra:
+        damage-per-second: 1
+        damage-multiplied-by-speed: 0.0
+        ignore-unbreaking: false
+        damage-per-boost:
+          firework: 0
+          trident: 0
+        kinetic-damage: true
+      clamp-explosion-radius: true
+      infinity-bow:
+        works-without-arrows: false
+        normal-arrows: true
+        spectral-arrows: false
+        tipped-arrows: false
       halloween:
         force: false
         head-chance: 0.25

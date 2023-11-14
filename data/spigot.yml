@@ -43,6 +43,20 @@ advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
+commands:
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  log: true
+  tab-complete: 0
+  send-namespaced: true
+players:
+  disable-saving: false
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -157,20 +171,6 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     verbose: false
-commands:
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  log: true
-  tab-complete: 0
-  send-namespaced: true
-players:
-  disable-saving: false
 config-version: 12
 stats:
   disable-saving: false

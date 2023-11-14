@@ -14,7 +14,7 @@ services:
       MAX_MEMORY: 12G
 
       #Server
-      WORLD: ./UnderGround Parkour.zip
+      WORLD: "https://github.com/HIX4123/pakour/raw/main/UnderGround%20Parkour.zip"
       TYPE: PURPUR
       PURPUR_BUILD: LATEST
       EULA: "TRUE"
