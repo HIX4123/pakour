@@ -35,6 +35,7 @@ settings:
   tps-catchup: true
   server-mod-name: Purpur
   clamp-attributes: true
+  disable-give-dropping: false
   fix-projectile-looting-transfer: false
   limit-armor: true
   player-deaths-always-show-item: false
@@ -90,7 +91,6 @@ settings:
       minutes: '%02d minutes, and '
       second: '%02d second'
       seconds: '%02d seconds'
-  disable-give-dropping: false
   blocks:
     barrel:
       rows: 3
@@ -150,6 +150,10 @@ settings:
   fix-network-serialized-items-in-creative: false
   blast-resistance-overrides: {}
   block-fall-multipliers:
+    minecraft:yellow_bed:
+      distance: 0.5
+    minecraft:lime_bed:
+      distance: 0.5
     minecraft:brown_bed:
       distance: 0.5
     minecraft:light_gray_bed:
@@ -180,10 +184,6 @@ settings:
       distance: 0.5
     minecraft:black_bed:
       distance: 0.5
-    minecraft:yellow_bed:
-      distance: 0.5
-    minecraft:lime_bed:
-      distance: 0.5
   use-alternate-keepalive: false
 config-version: 33
 world-settings:
@@ -213,9 +213,9 @@ world-settings:
         explosion-effect: BLOCK
       big_dripleaf:
         tilt-delay:
+          PARTIAL: 10
           UNSTABLE: 10
           FULL: 100
-          PARTIAL: 10
       cactus:
         breaks-from-solid-neighbors: true
         affected-by-bonemeal: false
@@ -339,6 +339,24 @@ world-settings:
     tools:
       axe:
         strippables:
+          minecraft:bamboo_block:
+            into: minecraft:stripped_bamboo_block
+            drops: {}
+          minecraft:jungle_wood:
+            into: minecraft:stripped_jungle_wood
+            drops: {}
+          minecraft:jungle_log:
+            into: minecraft:stripped_jungle_log
+            drops: {}
+          minecraft:crimson_stem:
+            into: minecraft:stripped_crimson_stem
+            drops: {}
+          minecraft:spruce_log:
+            into: minecraft:stripped_spruce_log
+            drops: {}
+          minecraft:acacia_log:
+            into: minecraft:stripped_acacia_log
+            drops: {}
           minecraft:dark_oak_wood:
             into: minecraft:stripped_dark_oak_wood
             drops: {}
@@ -384,25 +402,13 @@ world-settings:
           minecraft:crimson_hyphae:
             into: minecraft:stripped_crimson_hyphae
             drops: {}
-          minecraft:bamboo_block:
-            into: minecraft:stripped_bamboo_block
-            drops: {}
-          minecraft:jungle_wood:
-            into: minecraft:stripped_jungle_wood
-            drops: {}
-          minecraft:jungle_log:
-            into: minecraft:stripped_jungle_log
-            drops: {}
-          minecraft:crimson_stem:
-            into: minecraft:stripped_crimson_stem
-            drops: {}
-          minecraft:spruce_log:
-            into: minecraft:stripped_spruce_log
-            drops: {}
-          minecraft:acacia_log:
-            into: minecraft:stripped_acacia_log
-            drops: {}
         waxables:
+          minecraft:waxed_oxidized_cut_copper_stairs:
+            into: minecraft:oxidized_cut_copper_stairs
+            drops: {}
+          minecraft:waxed_weathered_cut_copper_stairs:
+            into: minecraft:weathered_cut_copper_stairs
+            drops: {}
           minecraft:waxed_exposed_cut_copper_slab:
             into: minecraft:exposed_cut_copper_slab
             drops: {}
@@ -445,13 +451,10 @@ world-settings:
           minecraft:waxed_exposed_cut_copper:
             into: minecraft:exposed_cut_copper
             drops: {}
-          minecraft:waxed_oxidized_cut_copper_stairs:
-            into: minecraft:oxidized_cut_copper_stairs
-            drops: {}
-          minecraft:waxed_weathered_cut_copper_stairs:
-            into: minecraft:weathered_cut_copper_stairs
-            drops: {}
         weatherables:
+          minecraft:weathered_cut_copper_slab:
+            into: minecraft:exposed_cut_copper_slab
+            drops: {}
           minecraft:weathered_cut_copper_stairs:
             into: minecraft:exposed_cut_copper_stairs
             drops: {}
@@ -485,36 +488,36 @@ world-settings:
           minecraft:oxidized_cut_copper_slab:
             into: minecraft:weathered_cut_copper_slab
             drops: {}
-          minecraft:weathered_cut_copper_slab:
-            into: minecraft:exposed_cut_copper_slab
-            drops: {}
       hoe:
         tillables:
           minecraft:grass_block:
+            condition: air_above
             drops: {}
             into: minecraft:farmland
-            condition: air_above
           minecraft:dirt:
+            condition: air_above
             drops: {}
             into: minecraft:farmland
-            condition: air_above
           minecraft:rooted_dirt:
+            condition: always
             drops:
               minecraft:hanging_roots: 1.0
             into: minecraft:dirt
-            condition: always
           minecraft:dirt_path:
+            condition: air_above
             drops: {}
             into: minecraft:farmland
-            condition: air_above
           minecraft:coarse_dirt:
+            condition: air_above
             drops: {}
             into: minecraft:dirt
-            condition: air_above
         replant-crops: false
         replant-nether-warts: false
       shovel:
         flattenables:
+          minecraft:podzol:
+            into: minecraft:dirt_path
+            drops: {}
           minecraft:coarse_dirt:
             into: minecraft:dirt_path
             drops: {}
@@ -528,9 +531,6 @@ world-settings:
             into: minecraft:dirt_path
             drops: {}
           minecraft:dirt:
-            into: minecraft:dirt_path
-            drops: {}
-          minecraft:podzol:
             into: minecraft:dirt_path
             drops: {}
     ridable-settings:

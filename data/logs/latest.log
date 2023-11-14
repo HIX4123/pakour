@@ -1,548 +1,470 @@
-[07:58:52] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07:58:52] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[07:58:54] [ServerMain/INFO]: Loaded 7 recipes
-[07:58:55] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[07:58:55] [Server thread/INFO]: Loading properties
-[07:58:55] [Server thread/INFO]: This server is running Purpur version git-Purpur-2062 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: f6fd5f6 on HEAD)
-[07:58:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:58:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:58:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[07:58:56] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
-[07:58:56] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
-[07:58:56] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
-[07:58:56] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.9, test run: true
-[07:58:56] [Server thread/INFO]: Default game type: SURVIVAL
-[07:58:56] [Server thread/INFO]: Generating keypair
-[07:58:56] [Server thread/INFO]: Starting Minecraft server on *:12345
-[07:58:56] [Server thread/INFO]: Using epoll channel type
-[07:58:56] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
-[07:58:56] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux aarch64) cipher from Velocity.
-[07:58:57] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[07:59:00] [Server thread/WARN]: Legacy plugin KoreanChat v1.0 does not specify an api-version.
-[07:59:00] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.8.1
-[07:59:00] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
-[07:59:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[07:59:01] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b85-71acc6c)
-[07:59:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[07:59:02] [Server thread/INFO]: [floodgate] Took 589ms to boot Floodgate
-[07:59:02] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.108
-[07:59:02] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.55
-[07:59:02] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.0-SNAPSHOT
-[07:59:03] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[07:59:03] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[07:59:03] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[07:59:03] [Server thread/INFO]: [KoreanChat] Loading server plugin KoreanChat v1.0
-[07:59:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.108
-[07:59:03] [Server thread/INFO]:         __    
-[07:59:03] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.108
-[07:59:03] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
-[07:59:03] [Server thread/INFO]: 
-[07:59:03] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[07:59:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[07:59:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[07:59:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[07:59:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2035ms)
-[07:59:05] [Server thread/INFO]: Preparing level "world"
-[07:59:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:59:18] [Server thread/INFO]: Time elapsed: 91 ms
-[07:59:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:59:18] [Server thread/INFO]: Time elapsed: 62 ms
-[07:59:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:59:18] [Server thread/INFO]: Time elapsed: 61 ms
-[07:59:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
-[07:59:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
-[07:59:18] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b85-71acc6c)
-[07:59:18] [Server thread/INFO]: [spark] Enabling spark v1.10.55
-[07:59:18] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[07:59:18] [Server thread/INFO]: [spark] Starting background profiler...
-[07:59:19] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.0-SNAPSHOT
-[07:59:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[07:59:19] [Server thread/INFO]: [Essentials] Loading Name->UUID cache from disk...
-[07:59:19] [Server thread/INFO]: [Essentials] Loading UUID cache from disk...
-[07:59:19] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[07:59:19] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[07:59:19] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[07:59:19] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[07:59:19] [Server thread/INFO]: [Essentials] Converted 0/1
-[07:59:19] [Server thread/INFO]: [Essentials] Ban format update complete.
-[07:59:19] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[07:59:19] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[07:59:19] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[07:59:19] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[07:59:19] [Server thread/INFO]: [Essentials] Done converting mail list.
-[07:59:19] [Server thread/INFO]: [Essentials] #===========================================================================#
-[07:59:19] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[07:59:19] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[07:59:19] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[07:59:19] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[07:59:19] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[07:59:19] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[07:59:19] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[07:59:19] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[07:59:19] [Server thread/INFO]: [Essentials] 
-[07:59:19] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[07:59:19] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[07:59:19] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[07:59:19] [Server thread/INFO]: [Essentials] #===========================================================================#
-[07:59:19] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[07:59:19] [Server thread/INFO]: [Essentials] #===========================================================================#
-[07:59:19] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[07:59:19] [Server thread/INFO]: [Essentials] 
-[07:59:19] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[07:59:19] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[07:59:19] [Server thread/INFO]: [Essentials] 
-[07:59:19] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[07:59:19] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[07:59:19] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[07:59:19] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[07:59:19] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[07:59:19] [Server thread/INFO]: [Essentials] #===========================================================================#
-[07:59:19] [Server thread/INFO]: [Essentials] Attempting removal of give
-[07:59:19] [Server thread/INFO]: [Essentials] Adding command give to disabled map!
-[07:59:19] [Server thread/INFO]: [Essentials] Attempting removal of teleport
-[07:59:19] [Server thread/INFO]: [Essentials] Adding command teleport to disabled map!
-[07:59:19] [Server thread/INFO]: [Essentials] Attempting removal of tp
-[07:59:19] [Server thread/INFO]: [Essentials] Adding command tp to disabled map!
-[07:59:19] [Server thread/INFO]: [Essentials] Syncing commands
-[07:59:19] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[07:59:19] [Server thread/INFO]: [Essentials] Trying to deserialize item 'blue_dye' with resolver 'essentials:custom_items'...
-[07:59:19] [Server thread/INFO]: [Essentials] Trying to deserialize item 'sand' with resolver 'essentials:custom_items'...
-[07:59:19] [Server thread/INFO]: [Essentials] Trying to deserialize item 'cooked_porkchop' with resolver 'essentials:custom_items'...
-[07:59:19] [Server thread/INFO]: [Essentials] Using locale en_US
-[07:59:19] [Server thread/INFO]: [Essentials] Registering Listeners
-[07:59:19] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[07:59:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[07:59:20] [Server thread/INFO]: [Essentials] Essentials load execution time: I18n1: 9.607ms - Upgrade: 213.328ms - Settings: 79.478ms - Upgrade2: 0.015ms - Init(Mail): 7.648ms - Init(Usermap): 16.445ms - Init(BalanceTop): 1.031ms - Kits: 8.040ms - Upgrade3: 79.647ms - Init(Warp): 2.239ms - Init(Worth): 6.442ms - Init(ItemDB): 0.542ms - Init(RandomTeleport): 9.251ms - Init(CustomItemResolver): 8.760ms - Init(Jails): 1.895ms - Init(Providers): 8.585ms - Reload(Settings): 44.521ms - Reload(Kits): 1.300ms - Reload(Warps): 0.052ms - Reload(Worth): 4.154ms - Reload(FlatItemDb): 130.153ms - Reload(RandomTeleport): 1.684ms - Reload(CustomItemResolver): 11.206ms - Reload(Jails): 0.173ms - RegHandler: 79.186ms - Init(External): 43.223ms - Total: 768.606ms
-[07:59:20] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[07:59:20] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[07:59:20] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[07:59:20] [Server thread/INFO]: [KoreanChat] Enabling KoreanChat v1.0*
-[07:59:20] [Server thread/INFO]: [KoreanChat] KoreanChat is Enabled! 안녕하세요!
-[07:59:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[07:59:20] [Server thread/INFO]: [Geyser-Spigot] 
-[07:59:20] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.0-SNAPSHOT (git-master-8d2ebcf)
-[07:59:20] [Server thread/INFO]: [Geyser-Spigot] 
-[07:59:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[07:59:23] [pool-15-thread-1/WARN]: [floodgate] 
+[08:34:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:34:02] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[08:34:03] [ServerMain/INFO]: Loaded 7 recipes
+[08:34:04] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[08:34:04] [Server thread/INFO]: Loading properties
+[08:34:04] [Server thread/INFO]: This server is running Purpur version git-Purpur-2062 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: f6fd5f6 on HEAD)
+[08:34:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:34:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:34:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[08:34:05] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[08:34:05] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[08:34:05] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[08:34:05] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.9, test run: true
+[08:34:05] [Server thread/INFO]: Default game type: SURVIVAL
+[08:34:05] [Server thread/INFO]: Generating keypair
+[08:34:06] [Server thread/INFO]: Starting Minecraft server on *:12345
+[08:34:06] [Server thread/INFO]: Using epoll channel type
+[08:34:06] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[08:34:06] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux aarch64) cipher from Velocity.
+[08:34:06] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[08:34:09] [Server thread/WARN]: Legacy plugin KoreanChat v1.0 does not specify an api-version.
+[08:34:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.8.1
+[08:34:09] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
+[08:34:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[08:34:10] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b85-71acc6c)
+[08:34:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[08:34:11] [Server thread/INFO]: [floodgate] Took 643ms to boot Floodgate
+[08:34:11] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.108
+[08:34:11] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.55
+[08:34:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.0-SNAPSHOT
+[08:34:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[08:34:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[08:34:12] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[08:34:12] [Server thread/INFO]: [KoreanChat] Loading server plugin KoreanChat v1.0
+[08:34:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.108
+[08:34:12] [Server thread/INFO]:         __    
+[08:34:12] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.108
+[08:34:12] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[08:34:12] [Server thread/INFO]: 
+[08:34:12] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[08:34:12] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[08:34:13] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[08:34:13] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[08:34:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1828ms)
+[08:34:13] [Server thread/INFO]: Preparing level "world"
+[08:34:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:34:26] [Server thread/INFO]: Time elapsed: 103 ms
+[08:34:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:34:27] [Server thread/INFO]: Time elapsed: 53 ms
+[08:34:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:34:27] [Server thread/INFO]: Time elapsed: 41 ms
+[08:34:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
+[08:34:27] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[08:34:27] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b85-71acc6c)
+[08:34:27] [Server thread/INFO]: [spark] Enabling spark v1.10.55
+[08:34:27] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[08:34:27] [Server thread/INFO]: [spark] Starting background profiler...
+[08:34:28] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.0-SNAPSHOT
+[08:34:28] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[08:34:28] [Server thread/INFO]: [Essentials] Loading Name->UUID cache from disk...
+[08:34:28] [Server thread/INFO]: [Essentials] Loading UUID cache from disk...
+[08:34:28] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[08:34:28] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[08:34:28] [Server thread/INFO]: [Essentials] Attempting removal of give
+[08:34:28] [Server thread/INFO]: [Essentials] Adding command give to disabled map!
+[08:34:28] [Server thread/INFO]: [Essentials] Attempting removal of teleport
+[08:34:28] [Server thread/INFO]: [Essentials] Adding command teleport to disabled map!
+[08:34:28] [Server thread/INFO]: [Essentials] Attempting removal of tp
+[08:34:28] [Server thread/INFO]: [Essentials] Adding command tp to disabled map!
+[08:34:28] [Server thread/INFO]: [Essentials] Syncing commands
+[08:34:28] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[08:34:28] [Server thread/INFO]: [Essentials] Trying to deserialize item 'blue_dye' with resolver 'essentials:custom_items'...
+[08:34:28] [Server thread/INFO]: [Essentials] Trying to deserialize item 'sand' with resolver 'essentials:custom_items'...
+[08:34:28] [Server thread/INFO]: [Essentials] Trying to deserialize item 'cooked_porkchop' with resolver 'essentials:custom_items'...
+[08:34:28] [Server thread/INFO]: [Essentials] Using locale en_US
+[08:34:28] [Server thread/INFO]: [Essentials] Registering Listeners
+[08:34:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[08:34:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:34:29] [Server thread/INFO]: [Essentials] Essentials load execution time: I18n1: 18.640ms - Upgrade: 238.291ms - Settings: 106.354ms - Upgrade2: 0.018ms - Init(Mail): 1.927ms - Init(Usermap): 17.550ms - Init(BalanceTop): 1.085ms - Kits: 5.592ms - Upgrade3: 0.304ms - Init(Warp): 1.526ms - Init(Worth): 13.956ms - Init(ItemDB): 0.729ms - Init(RandomTeleport): 4.081ms - Init(CustomItemResolver): 1.572ms - Init(Jails): 1.583ms - Init(Providers): 25.720ms - Reload(Settings): 59.807ms - Reload(Kits): 1.091ms - Reload(Warps): 0.041ms - Reload(Worth): 3.691ms - Reload(FlatItemDb): 159.563ms - Reload(RandomTeleport): 1.899ms - Reload(CustomItemResolver): 10.077ms - Reload(Jails): 0.146ms - RegHandler: 181.235ms - Init(External): 84.775ms - Total: 941.253ms
+[08:34:29] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[08:34:29] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[08:34:29] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[08:34:29] [Server thread/INFO]: [KoreanChat] Enabling KoreanChat v1.0*
+[08:34:29] [Server thread/INFO]: [KoreanChat] KoreanChat is Enabled! 안녕하세요!
+[08:34:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:34:29] [Server thread/INFO]: [Geyser-Spigot] 
+[08:34:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.0-SNAPSHOT (git-master-8d2ebcf)
+[08:34:29] [Server thread/INFO]: [Geyser-Spigot] 
+[08:34:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:34:32] [pool-15-thread-1/WARN]: [floodgate] 
 **********************************
 * You specified an empty prefix in your Floodgate config for Bedrock players!
 * Should a Java player join and a Bedrock player join with the same username, unwanted results and conflicts will happen!
 * We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
 **********************************
-[07:59:26] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:12345
-[07:59:26] [Server thread/INFO]: [Geyser-Spigot] Done (6.107s)! Run /geyser help for help!
-[07:59:26] [Server thread/INFO]: Starting remote control listener
-[07:59:26] [Server thread/INFO]: Thread RCON Listener started
-[07:59:26] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[07:59:26] [Server thread/INFO]: Running delayed init tasks
-[07:59:26] [Server thread/INFO]: Done (31.546s)! For help, type "help"
-[07:59:26] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[07:59:26] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
-[08:23:22] [User Authenticator #0/INFO]: UUID of player SeworL is a622774f-7d34-432a-9182-348fe6f6f2dc
-[08:23:22] [Server thread/INFO]: SeworL joined the game
-[08:23:23] [Server thread/INFO]: SeworL[/203.248.152.111:21687] logged in with entity id 205 at ([world]18.5, 72.0, -120.5)
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.helpop - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.me - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.gamemode - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.afk - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.seen - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.antioch - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.anvil - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.back - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.backup - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.balance - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.balancetop - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ban - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.banip - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.broadcast - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.broadcastworld - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.beezooka - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.bigtree - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.condense - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.book - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.bottom - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.break - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.burn - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.remove - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpa - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.cartographytable - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.spawner - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.clearinventory - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.createkit - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.clearinventoryconfirmtoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.compass - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.getpos - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.workbench - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sethome - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setjail - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setwarp - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.customtext - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.time - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delkit - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delhome - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ignore - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.deljail - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delwarp - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.depth - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.disposal - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemdb - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.info - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.feed - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.enderchest - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ping - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.eco - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.editsign - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.potion - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.mail - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.enchant - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.gc - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.essentials - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.exp - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ext - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.fireball - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.firework - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.repair - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.fly - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.speed - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.recipe - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ice - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.give - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.god - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.grindstone - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.hat - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.heal - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.help - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.home - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.item - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemlore - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemname - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.invsee - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.jump - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.togglejail - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.jails - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kick - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kickall - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kill - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kit - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kitreset - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kittycannon - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.lightning - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.list - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.loom - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.spawnmob - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.more - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.motd - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msg - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msgtoggle - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.mute - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.near - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.nick - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.nuke - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unban - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unbanip - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.pay - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.payconfirmtoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.paytoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.skull - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ptime - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.pweather - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.playtime - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.powertool - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.powertooltoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.worth - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msg - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.weather - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.realname - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.renamehome - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rtoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rest - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rules - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sell - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.settpr - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setworth - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.smithingtable - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.socialspy - false
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.sleepingignored - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.stonecutter - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sudo - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.suicide - false
-[08:23:23] [Server thread/INFO]: [Essentials] looking up groupname of SeworL - default
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tp - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tempban - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tempbanip - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.thunder - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.top - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpaall - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpacancel - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpaccept - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpahere - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.motd - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpall - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.mail - false
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.updatecheck - false
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.fly.safelogin - false
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.speed - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpauto - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpdeny - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tphere - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpo - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpoffline - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpohere - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tppos - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpr - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tptoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tree - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unlimited - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.vanish - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.warp - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.warpinfo - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.whois - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.world - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.showkit - false
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.gamemode - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.back - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpa - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.sethome - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.delhome - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.ping - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.home - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msg - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msgtoggle - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.mute - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.near - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.playtime - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msg - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tp - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpaall - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpacancel - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpaccept - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpahere - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpall - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpauto - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpdeny - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tphere - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.warp - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.warpinfo - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.helpop - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.me - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.gamemode - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.afk - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.seen - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.antioch - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.anvil - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.back - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.backup - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.balance - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.balancetop - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ban - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.banip - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.broadcast - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.broadcastworld - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.beezooka - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.bigtree - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.condense - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.book - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.bottom - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.break - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.burn - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.remove - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpa - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.cartographytable - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.spawner - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.clearinventory - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.createkit - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.clearinventoryconfirmtoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.compass - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.getpos - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.workbench - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sethome - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setjail - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setwarp - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.customtext - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.time - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delkit - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delhome - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ignore - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.deljail - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delwarp - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.depth - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.disposal - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemdb - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.info - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.feed - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.enderchest - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ping - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.eco - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.editsign - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.potion - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.mail - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.enchant - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.gc - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.essentials - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.exp - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ext - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.fireball - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.firework - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.repair - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.fly - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.speed - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.recipe - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ice - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.give - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.god - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.grindstone - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.hat - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.heal - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.help - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.home - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.item - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemlore - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemname - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.invsee - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.jump - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.togglejail - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.jails - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kick - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kickall - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kill - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kit - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kitreset - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kittycannon - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.lightning - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.list - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.loom - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.spawnmob - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.more - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.motd - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msg - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msgtoggle - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.mute - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.near - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.nick - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.nuke - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unban - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unbanip - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.pay - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.payconfirmtoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.paytoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.skull - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ptime - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.pweather - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.playtime - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.powertool - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.powertooltoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.worth - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msg - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.weather - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.realname - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.renamehome - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rtoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rest - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rules - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sell - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.settpr - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setworth - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.smithingtable - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.socialspy - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.stonecutter - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sudo - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.suicide - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tp - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tempban - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tempbanip - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.thunder - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.top - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpaall - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpacancel - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpaccept - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpahere - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpall - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpauto - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpdeny - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tphere - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpo - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpoffline - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpohere - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tppos - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpr - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tptoggle - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tree - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unlimited - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.vanish - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.warp - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.warpinfo - true
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.whois - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.world - false
-[08:23:23] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.showkit - false
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.gamemode - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.back - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpa - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.sethome - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.delhome - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.ping - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.home - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msg - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msgtoggle - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.mute - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.near - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.playtime - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msg - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tp - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpaall - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpacancel - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpaccept - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpahere - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpall - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpauto - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpdeny - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tphere - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.warp - true
-[08:23:23] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.warpinfo - true
-[08:23:43] [Server thread/INFO]: [Not Secure] [Server] Server shutting down in 1 seconds
-[08:23:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[08:23:44] [Server thread/INFO]: [Rcon: Stopping the server]
-[08:23:44] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[08:23:44] [Server thread/INFO]: Stopping server
-[08:23:44] [Server thread/INFO]: [KoreanChat] Disabling KoreanChat v1.0
-[08:23:44] [Server thread/INFO]: [KoreanChat] KoreanChat is Disabled! Bye Bye!
-[08:23:44] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[08:23:44] [Server thread/INFO]: [Essentials] Saving UUID cache to disk...
-[08:23:44] [Server thread/INFO]: [Essentials] Saving Name->UUID cache to disk...
-[08:23:44] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.0-SNAPSHOT
-[08:23:44] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[08:23:44] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[08:23:44] [Server thread/INFO]: [spark] Disabling spark v1.10.55
-[08:23:44] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.108
-[08:23:44] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[08:23:44] [Server thread/INFO]: [LuckPerms] Closing storage...
-[08:23:44] [Server thread/INFO]: [LuckPerms] Goodbye!
-[08:23:44] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b85-71acc6c)
-[08:23:44] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.8.1
-[08:23:44] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[08:23:44] [Server thread/INFO]: Saving players
-[08:23:44] [Server thread/INFO]: SeworL lost connection: Server closed
-[08:23:44] [Server thread/INFO]: SeworL left the game
-[08:23:44] [Server thread/INFO]: Saving worlds
-[08:23:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08:23:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[08:23:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[08:23:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[08:23:44] [WebSocketConnectReadThread-87/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Saved 1503 block chunks, 123 entity chunks, 0 poi chunks in world 'world' in 1.19s
-[08:23:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:23:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Saved 1236 block chunks, 10 entity chunks, 0 poi chunks in world 'world_nether' in 0.42s
-[08:23:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:23:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[08:23:46] [Server thread/INFO]: [ChunkHolderManager] Saved 1242 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.25s
-[08:23:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:23:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08:23:46] [Server thread/INFO]: Flushing Chunk IO
-[08:23:46] [Server thread/INFO]: Closing Thread Pool
-[08:23:46] [Server thread/INFO]: Closing Server
+[08:34:37] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:12345
+[08:34:37] [Server thread/INFO]: [Geyser-Spigot] Done (7.782s)! Run /geyser help for help!
+[08:34:37] [Server thread/INFO]: Starting remote control listener
+[08:34:37] [Server thread/INFO]: Thread RCON Listener started
+[08:34:37] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[08:34:37] [Server thread/INFO]: Running delayed init tasks
+[08:34:37] [Server thread/INFO]: Done (33.025s)! For help, type "help"
+[08:34:37] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[08:34:37] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[08:34:51] [User Authenticator #0/INFO]: Disconnecting /203.248.152.111:12833: Failed to verify username!
+[08:34:51] [User Authenticator #0/ERROR]: Username 'SeworL' tried to join with an invalid session
+[08:34:51] [Server thread/INFO]: /203.248.152.111:12833 lost connection: Failed to verify username!
+[08:35:01] [User Authenticator #0/INFO]: UUID of player SeworL is a622774f-7d34-432a-9182-348fe6f6f2dc
+[08:35:01] [Server thread/INFO]: SeworL joined the game
+[08:35:01] [Server thread/INFO]: SeworL[/203.248.152.111:15655] logged in with entity id 40 at ([world]-31.5, 64.0, 2.5)
+[08:35:01] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.helpop - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.me - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.gamemode - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.afk - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.seen - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.antioch - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.anvil - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.back - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.backup - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.balance - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.balancetop - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ban - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.banip - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.broadcast - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.broadcastworld - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.beezooka - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.bigtree - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.condense - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.book - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.bottom - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.break - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.burn - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.remove - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpa - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.cartographytable - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.spawner - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.clearinventory - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.createkit - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.clearinventoryconfirmtoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.compass - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.getpos - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.workbench - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sethome - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setjail - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setwarp - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.customtext - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.time - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delkit - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delhome - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ignore - false
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.sleepingignored - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.deljail - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delwarp - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.depth - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.disposal - false
+[08:35:02] [Server thread/INFO]: [Essentials] looking up groupname of SeworL - default
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemdb - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.info - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.feed - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.enderchest - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ping - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.motd - false
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.mail - false
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.updatecheck - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.eco - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.editsign - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.potion - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.mail - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.enchant - false
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.fly.safelogin - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.gc - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.essentials - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.exp - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ext - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.fireball - false
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.speed - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.firework - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.repair - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.fly - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.speed - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.recipe - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ice - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.give - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.god - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.grindstone - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.hat - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.heal - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.help - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.home - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.item - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemlore - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemname - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.invsee - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.jump - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.togglejail - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.jails - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kick - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kickall - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kill - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kit - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kitreset - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kittycannon - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.lightning - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.list - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.loom - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.spawnmob - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.more - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.motd - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msg - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msgtoggle - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.mute - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.near - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.nick - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.nuke - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unban - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unbanip - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.pay - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.payconfirmtoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.paytoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.skull - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ptime - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.pweather - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.playtime - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.powertool - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.powertooltoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.worth - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msg - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.weather - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.realname - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.renamehome - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rtoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rest - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rules - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sell - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.settpr - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setworth - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.smithingtable - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.socialspy - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.stonecutter - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sudo - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.suicide - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tp - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tempban - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tempbanip - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.thunder - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.top - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpaall - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpacancel - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpaccept - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpahere - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpall - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpauto - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpdeny - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tphere - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpo - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpoffline - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpohere - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tppos - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpr - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tptoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tree - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unlimited - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.vanish - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.warp - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.warpinfo - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.whois - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.world - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.showkit - false
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.gamemode - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.back - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpa - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.sethome - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.delhome - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.ping - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.home - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msg - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msgtoggle - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.mute - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.near - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.playtime - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msg - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tp - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpaall - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpacancel - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpaccept - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpahere - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpall - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpauto - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpdeny - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tphere - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.warp - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.warpinfo - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.helpop - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.me - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.gamemode - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.afk - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.seen - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.antioch - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.anvil - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.back - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.backup - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.balance - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.balancetop - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ban - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.banip - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.broadcast - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.broadcastworld - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.beezooka - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.bigtree - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.condense - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.book - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.bottom - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.break - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.burn - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.remove - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpa - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.cartographytable - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.spawner - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.clearinventory - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.createkit - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.clearinventoryconfirmtoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.compass - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.getpos - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.workbench - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sethome - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setjail - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setwarp - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.customtext - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.time - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delkit - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delhome - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ignore - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.deljail - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.delwarp - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.depth - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.disposal - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemdb - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.info - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.feed - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.enderchest - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ping - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.eco - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.editsign - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.potion - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.mail - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.enchant - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.gc - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.essentials - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.exp - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ext - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.fireball - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.firework - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.repair - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.fly - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.speed - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.recipe - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ice - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.give - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.god - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.grindstone - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.hat - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.heal - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.help - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.home - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.item - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemlore - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.itemname - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.invsee - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.jump - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.togglejail - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.jails - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kick - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kickall - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kill - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kit - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kitreset - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.kittycannon - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.lightning - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.list - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.loom - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.spawnmob - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.more - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.motd - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msg - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msgtoggle - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.mute - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.near - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.nick - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.nuke - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unban - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unbanip - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.pay - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.payconfirmtoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.paytoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.skull - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.ptime - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.pweather - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.playtime - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.powertool - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.powertooltoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.worth - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.msg - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.weather - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.realname - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.renamehome - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rtoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rest - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.rules - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sell - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.settpr - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.setworth - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.smithingtable - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.socialspy - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.stonecutter - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.sudo - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.suicide - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tp - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tempban - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tempbanip - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.thunder - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.top - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpaall - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpacancel - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpaccept - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpahere - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpall - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpauto - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpdeny - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tphere - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpo - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpoffline - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpohere - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tppos - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tpr - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tptoggle - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.tree - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.unlimited - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.vanish - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.warp - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.warpinfo - true
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.whois - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.world - false
+[08:35:02] [Paper Async Command Builder Thread Pool - 0/INFO]: [Essentials] checking if SeworL has essentials.showkit - false
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.gamemode - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.back - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpa - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.sethome - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.delhome - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.ping - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.home - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msg - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msgtoggle - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.mute - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.near - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.playtime - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.msg - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tp - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpaall - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpacancel - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpaccept - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpahere - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpall - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpauto - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tpdeny - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.tphere - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.warp - true
+[08:35:02] [Server thread/INFO]: [Essentials] checking if SeworL has essentials.warpinfo - true
+[08:35:13] [Async Chat Thread - #0/INFO]: [Not Secure] <SeworL> ㅁㄴㅇㄹ
+[08:37:26] [Server thread/INFO]: SeworL lost connection: Disconnected
+[08:37:26] [Server thread/INFO]: SeworL left the game
