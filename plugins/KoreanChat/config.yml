@@ -1,0 +1,67 @@
+# 한글채팅 플러그인
+#
+# 채팅앞에 - 를 붙일경우 두벌식 키보드(일반적인 키보드) = 를 붙일경우 세벌식 키보드 모드로 동작
+# 자동모드가 켜져있을 경우 - 를 붙일경우 변환하지 않습니다.
+#
+# enable    - 플러그인의 작동여부를 설정합니다. (기본값 : true)
+#   true    - 플러그인을 활성화합니다.
+#   false   - 플러그인을 비활성화합니다.
+#
+# smart     - 한글채팅의 모드를 설정합니다. (기본값 : false)
+#   true    - 스마트 모드를 활성화합니다. 속도가 느리며 유저가 0.001~0.3초의 딜레이를 느낄 수 있습니다.
+#             유저의 채팅을 인식하여 자동으로 영어단어를 구분합니다.
+#   false   - 스마트 모드를 비활성화. 작동속도가 빠르며 유저가 딜레이를 거의 느끼지 않습니다.
+#             모든채팅을 한글로 변환합니다.
+#
+# auto      - 한글채팅의 작동방식을 설정합니다. (기본값 : false)
+#   true    - 자동모드를 활성화합니다.
+#             모든 채팅을 자동으로 한글채팅으로 변환합니다.
+#   false   - 수동모드를 활성화합니다.
+#             특수기호가 앞에 붙은 채팅만을 변환합니다.
+#
+# command   - 명령어 사용여부를 설정합니다. (기본값 : true)
+#   true    - 명령어 사용을 활성화합니다.
+#             유저가 자동여부를 설정할 수 있습니다.
+#   false   - 명령어 사용을 비활성화합니다.
+#             유저가 자동여부를 설정할 수 없습니다.
+#
+# 해당 플러그인은 rodumari 님의 소스를 활용하여 제작되었습니다. 따라서 Apache License 2.0 를 준수합니다.
+# https://github.com/rodumani/minecraft-chat-translator/blob/master/LICENSE
+settings:
+  enable: true
+  smart: true
+  auto: true
+  command: true
+message:
+  prefix: '&7[&6한글채팅&7]'
+  setting: '&7(서버설정)'
+  reload: '&a리로드에 성공했습니다!'
+  enable:
+    smart: '&a스마트 기능을 활성화 했습니다!'
+    auto: '&a자동변환 기능을 활성화 했습니다!'
+    type: '&a세벌식키보드 기능을 활성화 했습니다!'
+    command: '&a유저들이 명령어를 사용할 수 있습니다!'
+  disable:
+    smart: '&c스마트 기능을 비활성화 했습니다!'
+    auto: '&c자동변환 기능을 비활성화 했습니다!'
+    type: '&c세벌식키보드 기능을 비활성화 했습니다!'
+    command: '&c유저들이 명령어를 사용할 수 없습니다!'
+  error:
+    command: '&c지금은 명령어를 사용할 수 없습니다!'
+    permission: '&c당신은 권한이 없습니다!'
+  help:
+    command: '&c잘못된 명령어 사용입니다! /koreanchat help 로 도움말을 확인하세요!'
+    console: '&c콘솔에서는 사용할 수 없습니다!'
+    admin:
+    - '&7===============&f[&6관리자도움말&f]&7==============='
+    - '&f/koreanchat setting smart &e스마트모드의 서버 기본설정을 변경합니다.'
+    - '&f/koreanchat setting auto &e자동모드의 서버 기본설정을 변경합니다.'
+    - '&f/koreanchat setting command &e유저 명령어 사용 여부를 변경합니다.'
+    - '&f/koreanchat [setting] reload &e한글채팅의 설정을 다시 불러옵니다.'
+    user:
+    - '&7===============&f[&6유저 도움말&f]&7==============='
+    - '&7수동모드에서는 채팅앞에 -를 붙이면 동작합니다.'
+    - '&f/koreanchat &e자동모드의 설정을 변경합니다.'
+    - '&f/koreanchat smart &e스마트모드의 설정을 변경합니다.'
+    - '&f/koreanchat auto &e자동모드의 설정을 변경합니다.'
+    - '&f/koreanchat type &e세벌식키보드 여부를 설정합니다.'
