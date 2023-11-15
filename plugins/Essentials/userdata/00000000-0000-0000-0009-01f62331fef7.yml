@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 203.248.152.111
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1699977111459
+  login: 1699977049531
+money: '0'
+last-account-name: FanaticOlive412
+logoutlocation:
+  world: f74d7219-0cd4-4621-87df-b8bd49a6bf04
+  world-name: world
+  x: 16.725714
+  y: 108.0
+  z: -19.261528
+  yaw: -59.92565155029297
+  pitch: 4.58782958984375

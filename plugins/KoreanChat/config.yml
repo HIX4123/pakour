@@ -28,7 +28,7 @@
 # 해당 플러그인은 rodumari 님의 소스를 활용하여 제작되었습니다. 따라서 Apache License 2.0 를 준수합니다.
 # https://github.com/rodumani/minecraft-chat-translator/blob/master/LICENSE
 settings:
-  enable: true
+  enable: false
   smart: true
   auto: true
   command: true

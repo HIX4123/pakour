@@ -1,2 +1,5 @@
-# 첫줄을 절대 지우지 마세요!
-user: []
+user:
+  Tyrine74:
+    auto: false
+  SeworL:
+    auto: true
